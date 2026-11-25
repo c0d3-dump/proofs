@@ -1,0 +1,27 @@
+[
+ {
+  "wait": 2.5
+ },
+ {
+  "until": "engine",
+  "timeout": 30
+ },
+ {
+  "window": "1440x900"
+ },
+ {
+  "wait": 0.8
+ },
+ {
+  "agent_tool": "ui_click",
+  "args": {
+   "element": "Project: new, open, save, undo"
+  }
+ },
+ {
+  "wait": 0.5
+ },
+ {
+  "quit": true
+ }
+]
