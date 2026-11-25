@@ -1,0 +1,9 @@
+The app started at 800x600. The AI agent's ui_elements ran (as it does each turn), then the window was set to 1440x900 (and 1024x640 in other runs). The app quits in the resize.
+
+Relevant log:
+  Attachments have differing sizes: the depth attachment's texture view has extent (800, 600, 1)
+  but is followed by the color attachment at index 0's texture view which has (1440, 900, 1)
+  ... Quitting the application due to Validation RenderError
+
+Reproduced 6/6: ui_elements + resize (2/2), with a prior screenshot (2/2), resize to 1024 (2/2),
+plus the top-bar/status run (2/2). No crash without the ui_elements call (2/2 clean).

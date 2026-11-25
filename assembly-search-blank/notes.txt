@@ -1,0 +1,2 @@
+With one part in the assembly, typing "hinge" (the placeholder promises joints and couplings)
+leaves the panel blank, with no "nothing matches" message. Both runs the same.

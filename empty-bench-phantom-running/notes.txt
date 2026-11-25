@@ -1,0 +1,4 @@
+After Space on an empty bench (run 1):
+e8 button "Stop" [1131, 8, 79, 28]
+e69 text "Running · 0.0 s" [973, 830, 80, 12]
+No circuit items exist and no simulation snapshot exists. Both runs the same.

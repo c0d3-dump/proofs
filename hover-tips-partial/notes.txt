@@ -1,0 +1,2 @@
+Settings shows Hover tips off. Hovering App settings still shows its tooltip; hovering Wire on the rail shows none.
+The setting is described as covering "the rail's and the toolbar's tooltips". Both runs the same.

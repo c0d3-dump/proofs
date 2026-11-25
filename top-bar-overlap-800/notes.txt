@@ -1,0 +1,3 @@
+Window 800x600 (runs 1 and 2):
+[autotest] top bar 774 wide at level 0: left [[13.0 1.0] - [540.8 47.0]], right [[487.0 1.0] - [787.0 47.0]], Run/Stop [[561.0 9.0] - [645.0 39.0]] in [[13.0 1.0] - [787.0 47.0]]
+AUTOTEST FAIL step 6: top_bar_fits: the right group starts at x 487, over the left group's end at x 541

@@ -1,0 +1,2 @@
+Clicking the pencil on the "Test part" row reports a click on the Edit button, but no component window opens;
+the row becomes the armed part instead. Clean-home runs: 2/2.

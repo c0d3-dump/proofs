@@ -1,0 +1,69 @@
+[
+ {
+  "wait": 2.5
+ },
+ {
+  "until": "engine",
+  "timeout": 30
+ },
+ {
+  "ws": "Design"
+ },
+ {
+  "wait": 0.5
+ },
+ {
+  "do": "op",
+  "name": "primitive",
+  "arg": "box",
+  "mode": "solid"
+ },
+ {
+  "wait": 0.4
+ },
+ {
+  "do": "dialog_ok",
+  "title": "New box"
+ },
+ {
+  "until": "idle",
+  "timeout": 20
+ },
+ {
+  "wait": 0.5
+ },
+ {
+  "do": "select",
+  "items": [
+   [
+    "Box"
+   ]
+  ]
+ },
+ {
+  "wait": 0.3
+ },
+ {
+  "shot": "/Users/bhavinsojitra/nas/code/make-it/target/autotest/proof/shots/a-key-before.png"
+ },
+ {
+  "agent_tool": "ui_key",
+  "args": {
+   "key": "a"
+  }
+ },
+ {
+  "wait": 0.7
+ },
+ {
+  "shot": "/Users/bhavinsojitra/nas/code/make-it/target/autotest/proof/shots/a-key-after.png"
+ },
+ {
+  "agent_tool": "ui_elements",
+  "args": {},
+  "full": true
+ },
+ {
+  "quit": true
+ }
+]

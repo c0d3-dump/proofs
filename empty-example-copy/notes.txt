@@ -1,0 +1,2 @@
+The empty bench says "Or open an example." but the project menu has no Examples entry
+(the bundled examples were removed in the previous commit). Seen in both runs.

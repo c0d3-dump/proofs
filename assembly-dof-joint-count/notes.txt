@@ -1,0 +1,4 @@
+One Box, two hinge joints to the ground: the inspector shows "Joints 2", "Hinges 2", "Degrees of freedom 2".
+Two hinges on one body cannot leave two degrees of freedom; the row is the joint count.
+[autotest]   assembly: 1 parts, 2 joints, 0 joint folders, 0 couplings, running true
+Both runs the same.

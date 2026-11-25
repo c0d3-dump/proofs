@@ -1,0 +1,60 @@
+[
+ {
+  "wait": 2.5
+ },
+ {
+  "until": "engine",
+  "timeout": 30
+ },
+ {
+  "agent_tool": "ui_key",
+  "args": {
+   "key": ",",
+   "modifiers": [
+    "command"
+   ]
+  }
+ },
+ {
+  "wait": 0.8
+ },
+ {
+  "shot": "/Users/bhavinsojitra/nas/code/make-it/target/autotest/proof/shots/hover-tips-setting-off.png"
+ },
+ {
+  "agent_tool": "ui_click",
+  "args": {
+   "element": "Done"
+  }
+ },
+ {
+  "wait": 0.5
+ },
+ {
+  "agent_tool": "ui_hover",
+  "args": {
+   "element": "App settings"
+  }
+ },
+ {
+  "wait": 1.0
+ },
+ {
+  "shot": "/Users/bhavinsojitra/nas/code/make-it/target/autotest/proof/shots/hover-tips-topbar.png"
+ },
+ {
+  "agent_tool": "ui_hover",
+  "args": {
+   "element": "Wire"
+  }
+ },
+ {
+  "wait": 1.0
+ },
+ {
+  "shot": "/Users/bhavinsojitra/nas/code/make-it/target/autotest/proof/shots/hover-tips-rail.png"
+ },
+ {
+  "quit": true
+ }
+]

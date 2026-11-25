@@ -1,0 +1,2 @@
+The only body (Box) is selected. Silhouette asks for "Pick two parts or more" instead of running on it.
+Both runs the same.

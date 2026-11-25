@@ -1,0 +1,93 @@
+[
+ {
+  "wait": 2.5
+ },
+ {
+  "until": "engine",
+  "timeout": 30
+ },
+ {
+  "ws": "Design"
+ },
+ {
+  "wait": 0.5
+ },
+ {
+  "do": "op",
+  "name": "primitive",
+  "arg": "box",
+  "mode": "solid"
+ },
+ {
+  "wait": 0.4
+ },
+ {
+  "do": "dialog_ok",
+  "title": "New box"
+ },
+ {
+  "until": "idle",
+  "timeout": 20
+ },
+ {
+  "wait": 0.5
+ },
+ {
+  "do": "select",
+  "items": [
+   [
+    "Box"
+   ]
+  ]
+ },
+ {
+  "wait": 0.3
+ },
+ {
+  "agent_tool": "ui_key",
+  "args": {
+   "key": "k",
+   "modifiers": [
+    "command"
+   ]
+  }
+ },
+ {
+  "wait": 0.4
+ },
+ {
+  "agent_tool": "ui_type",
+  "args": {
+   "text": "top view"
+  }
+ },
+ {
+  "wait": 0.5
+ },
+ {
+  "shot": "/Users/bhavinsojitra/nas/code/make-it/target/autotest/proof/shots/palette-topview-before.png"
+ },
+ {
+  "agent_tool": "ui_key",
+  "args": {
+   "key": "Enter"
+  }
+ },
+ {
+  "wait": 0.8
+ },
+ {
+  "expect": "camera_from",
+  "dir": [
+   0,
+   0,
+   1
+  ]
+ },
+ {
+  "shot": "/Users/bhavinsojitra/nas/code/make-it/target/autotest/proof/shots/palette-topview-after.png"
+ },
+ {
+  "quit": true
+ }
+]

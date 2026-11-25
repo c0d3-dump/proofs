@@ -1,0 +1,2 @@
+After 16 ArrowDown presses the highlighted row is off-screen; the list has not scrolled
+and no row is highlighted. Both runs the same.

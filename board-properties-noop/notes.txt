@@ -1,0 +1,2 @@
+Clicking "All of the board's properties" changes nothing: the same summary/properties stay.
+Both runs the same. (With a footprint selected the row is not shown at all.)

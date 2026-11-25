@@ -1,0 +1,26 @@
+[
+ {
+  "wait": 2.5
+ },
+ {
+  "until": "engine",
+  "timeout": 30
+ },
+ {
+  "ws": "Design"
+ },
+ {
+  "wait": 0.9
+ },
+ {
+  "shot": "/Users/bhavinsojitra/nas/code/make-it/target/autotest/proof/shots/design-empty-800.png"
+ },
+ {
+  "agent_tool": "ui_elements",
+  "args": {},
+  "full": true
+ },
+ {
+  "quit": true
+ }
+]

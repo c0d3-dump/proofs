@@ -1,0 +1,3 @@
+After the second F1 press (run 1's ui_elements): e1 text "Keyboard shortcuts" is still on screen.
+After Escape closes it, the Box is no longer selected ("Nothing selected" in the inspector and status line).
+Both runs behaved the same.

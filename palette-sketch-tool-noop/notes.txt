@@ -1,0 +1,3 @@
+The palette row "Ellipse" is run from an empty Design workspace; no plane is being picked afterwards.
+AUTOTEST FAIL step 12: plane_pick: no plane is being picked
+Both runs the same.

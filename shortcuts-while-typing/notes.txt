@@ -1,0 +1,2 @@
+With the parts search focused, Cmd+K does not open the palette (first image).
+After clicking the 3D view to take focus away, the same keys open it (second image). Both runs the same.

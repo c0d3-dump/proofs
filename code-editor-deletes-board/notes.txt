@@ -1,0 +1,5 @@
+circuit before/after the Backspace (run 1):
+[autotest]   circuit: ["ex171 perfboard (5, -14)", "ex172 mcu-uno (0, 0)", "ex173 resistor (9, -11)", "ex174 led (12, -12)"], 3 wires
+[autotest]   circuit: ["ex171 perfboard (5, -14)", "ex173 resistor (9, -11)", "ex174 led (12, -12)"], 3 wires
+
+The same 4 -> 3 items happened in run 2, and in 3 earlier runs.

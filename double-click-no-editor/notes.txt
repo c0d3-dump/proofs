@@ -1,0 +1,4 @@
+The Uno tile tooltip says: "Runs your Arduino-style sketch (double-click to edit)."
+Double-clicking the placed Uno selects it but the code editor does not open.
+AUTOTEST FAIL step 13: code_editor: the code editor is not open
+Both runs the same.

@@ -1,0 +1,60 @@
+[
+ {
+  "wait": 2.5
+ },
+ {
+  "until": "engine",
+  "timeout": 30
+ },
+ {
+  "ws": "Design"
+ },
+ {
+  "wait": 0.5
+ },
+ {
+  "agent_tool": "ui_key",
+  "args": {
+   "key": "k",
+   "modifiers": [
+    "command"
+   ]
+  }
+ },
+ {
+  "wait": 0.4
+ },
+ {
+  "agent_tool": "ui_type",
+  "args": {
+   "text": "e"
+  }
+ },
+ {
+  "wait": 0.6
+ },
+ {
+  "shot": "/Users/bhavinsojitra/nas/code/make-it/target/autotest/proof/shots/palette-scroll-before.png"
+ },
+ {
+  "agent_tool": "ui_key",
+  "args": {
+   "key": "ArrowDown",
+   "repeat": 16
+  }
+ },
+ {
+  "wait": 0.6
+ },
+ {
+  "shot": "/Users/bhavinsojitra/nas/code/make-it/target/autotest/proof/shots/palette-scroll-after.png"
+ },
+ {
+  "agent_tool": "ui_elements",
+  "args": {},
+  "full": true
+ },
+ {
+  "quit": true
+ }
+]

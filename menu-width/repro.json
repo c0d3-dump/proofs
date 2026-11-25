@@ -1,0 +1,55 @@
+[
+ {
+  "wait": 2.5
+ },
+ {
+  "until": "engine",
+  "timeout": 30
+ },
+ {
+  "agent_tool": "ui_click",
+  "args": {
+   "element": "Project: new, open, save, undo"
+  }
+ },
+ {
+  "wait": 0.5
+ },
+ {
+  "shot": "/Users/bhavinsojitra/nas/code/make-it/target/autotest/proof/shots/menu-project-1440.png"
+ },
+ {
+  "agent_tool": "ui_elements",
+  "args": {},
+  "full": true
+ },
+ {
+  "agent_tool": "ui_key",
+  "args": {
+   "key": "Escape"
+  }
+ },
+ {
+  "wait": 0.4
+ },
+ {
+  "agent_tool": "ui_click",
+  "args": {
+   "element": "Display style"
+  }
+ },
+ {
+  "wait": 0.5
+ },
+ {
+  "shot": "/Users/bhavinsojitra/nas/code/make-it/target/autotest/proof/shots/menu-display-1440.png"
+ },
+ {
+  "agent_tool": "ui_elements",
+  "args": {},
+  "full": true
+ },
+ {
+  "quit": true
+ }
+]

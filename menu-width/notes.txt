@@ -1,0 +1,2 @@
+The project menu popup is 588 px wide for ~300 px of content; the divider spans the whole popup.
+The view "Display style" menu is ~598 px wide the same way. Both runs the same.

@@ -1,0 +1,35 @@
+[
+ {
+  "wait": 2.5
+ },
+ {
+  "until": "engine",
+  "timeout": 30
+ },
+ {
+  "shot": "/Users/bhavinsojitra/nas/code/make-it/target/autotest/proof/shots/empty-run-before.png"
+ },
+ {
+  "agent_tool": "ui_key",
+  "args": {
+   "key": "Space"
+  }
+ },
+ {
+  "wait": 1.0
+ },
+ {
+  "shot": "/Users/bhavinsojitra/nas/code/make-it/target/autotest/proof/shots/empty-run-after.png"
+ },
+ {
+  "agent_tool": "ui_elements",
+  "args": {},
+  "full": true
+ },
+ {
+  "dump": true
+ },
+ {
+  "quit": true
+ }
+]

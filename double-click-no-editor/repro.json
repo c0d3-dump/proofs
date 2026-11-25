@@ -1,0 +1,215 @@
+[
+ {
+  "wait": 2.5
+ },
+ {
+  "until": "engine",
+  "timeout": 30
+ },
+ {
+  "do": "circuit_load",
+  "doc": {
+   "version": 1,
+   "name": "Microcontroller blink",
+   "items": [
+    {
+     "id": "ex171",
+     "type": "perfboard",
+     "x": 5,
+     "y": -14,
+     "rot": 0,
+     "props": {
+      "cols": 9,
+      "rows": 10
+     },
+     "board": {
+      "bridges": [
+       "15-24",
+       "16-25",
+       "21-30",
+       "25-34",
+       "30-39",
+       "73-75",
+       "75-76",
+       "76-77",
+       "77-78",
+       "78-79"
+      ],
+      "cuts": [],
+      "joints": {
+       "15": "good",
+       "16": "good",
+       "21": "good",
+       "24": "good",
+       "25": "good",
+       "30": "good",
+       "34": "good",
+       "39": "good",
+       "73": "good",
+       "75": "good",
+       "76": "good",
+       "77": "good",
+       "78": "good",
+       "79": "good"
+      }
+     }
+    },
+    {
+     "id": "ex172",
+     "type": "mcu-uno",
+     "x": 0,
+     "y": 0,
+     "rot": 0,
+     "props": {
+      "baud": "115200",
+      "code": "// Blink \u2014 the \"hello world\" of microcontrollers.\n// Arduino-style C or JavaScript both work.\n\nvoid setup() {\n  pinMode(LED_BUILTIN, OUTPUT);\n  Serial.begin(9600);\n  Serial.println(\"Hello from Circuit-It!\");\n}\n\nvoid loop() {\n  digitalWrite(LED_BUILTIN, HIGH);\n  delay(500);\n  digitalWrite(LED_BUILTIN, LOW);\n  delay(500);\n}\n",
+      "files": "",
+      "usb": true
+     }
+    },
+    {
+     "id": "ex173",
+     "type": "resistor",
+     "x": 9,
+     "y": -11,
+     "rot": 0,
+     "props": {
+      "r": 330,
+      "watts": "0.25"
+     },
+     "leads": [
+      {
+       "x": 9,
+       "y": -11
+      },
+      {
+       "x": 12,
+       "y": -11
+      }
+     ]
+    },
+    {
+     "id": "ex174",
+     "type": "led",
+     "x": 12,
+     "y": -12,
+     "rot": 0,
+     "props": {
+      "color": "red",
+      "size": "5"
+     }
+    }
+   ],
+   "wires": [
+    {
+     "id": "exw175",
+     "points": [
+      {
+       "x": 9,
+       "y": 0
+      },
+      {
+       "x": 9,
+       "y": -9
+      }
+     ],
+     "color": "#fb8c00",
+     "kind": "jumper"
+    },
+    {
+     "id": "exw176",
+     "points": [
+      {
+       "x": 8,
+       "y": 0
+      },
+      {
+       "x": 8,
+       "y": -3
+      },
+      {
+       "x": 7,
+       "y": -3
+      },
+      {
+       "x": 7,
+       "y": -5
+      }
+     ],
+     "color": "#1e1e1e",
+     "kind": "jumper"
+    },
+    {
+     "id": "exw177",
+     "points": [
+      {
+       "x": 13,
+       "y": -10
+      },
+      {
+       "x": 13,
+       "y": -5
+      }
+     ],
+     "color": "#1e1e1e",
+     "kind": "jumper"
+    }
+   ],
+   "customDefs": {},
+   "settings": {
+    "dt": 2e-05,
+    "speed": 1,
+    "realisticSolder": false,
+    "failures": true,
+    "ambientTemp": 25,
+    "ambientLight": 0.6
+   }
+  }
+ },
+ {
+  "wait": 0.8
+ },
+ {
+  "fit": true
+ },
+ {
+  "wait": 0.5
+ },
+ {
+  "mouse": "click",
+  "to": {
+   "item": "ex172"
+  }
+ },
+ {
+  "wait": 0.3
+ },
+ {
+  "shot": "/Users/bhavinsojitra/nas/code/make-it/target/autotest/proof/shots/double-click-before.png"
+ },
+ {
+  "mouse": "click",
+  "to": {
+   "item": "ex172"
+  }
+ },
+ {
+  "mouse": "click",
+  "to": {
+   "item": "ex172"
+  }
+ },
+ {
+  "wait": 0.8
+ },
+ {
+  "expect": "code_editor",
+  "open": true
+ },
+ {
+  "shot": "/Users/bhavinsojitra/nas/code/make-it/target/autotest/proof/shots/double-click-after.png"
+ },
+ {
+  "quit": true
+ }
+]

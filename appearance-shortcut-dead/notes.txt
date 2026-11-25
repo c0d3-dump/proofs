@@ -1,0 +1,2 @@
+The Box is selected before and after pressing A; the inspector stays on Properties.
+The F1 sheet itself says: "A  appearance: material or colour of the picked parts". Both runs the same.

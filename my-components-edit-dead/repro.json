@@ -1,0 +1,73 @@
+[
+ {
+  "wait": 2.5
+ },
+ {
+  "until": "engine",
+  "timeout": 30
+ },
+ {
+  "ws": "Circuit"
+ },
+ {
+  "wait": 0.5
+ },
+ {
+  "do": "component_new",
+  "package": "dip",
+  "name": "Test part"
+ },
+ {
+  "wait": 1.2
+ },
+ {
+  "agent_tool": "ui_click",
+  "args": {
+   "element": "Close window"
+  }
+ },
+ {
+  "wait": 0.6
+ },
+ {
+  "agent_tool": "ui_click",
+  "args": {
+   "element": "Search the parts library"
+  }
+ },
+ {
+  "wait": 0.25
+ },
+ {
+  "agent_tool": "ui_type",
+  "args": {
+   "text": "test part"
+  }
+ },
+ {
+  "wait": 0.6
+ },
+ {
+  "shot": "/Users/bhavinsojitra/nas/code/make-it/target/autotest/proof/shots/pencil-my-components.png"
+ },
+ {
+  "agent_tool": "ui_click",
+  "args": {
+   "element": "Edit"
+  }
+ },
+ {
+  "wait": 0.8
+ },
+ {
+  "shot": "/Users/bhavinsojitra/nas/code/make-it/target/autotest/proof/shots/pencil-after-edit-click.png"
+ },
+ {
+  "agent_tool": "ui_elements",
+  "args": {},
+  "full": true
+ },
+ {
+  "quit": true
+ }
+]

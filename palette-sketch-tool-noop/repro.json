@@ -1,0 +1,57 @@
+[
+ {
+  "wait": 2.5
+ },
+ {
+  "until": "engine",
+  "timeout": 30
+ },
+ {
+  "ws": "Design"
+ },
+ {
+  "wait": 0.5
+ },
+ {
+  "agent_tool": "ui_key",
+  "args": {
+   "key": "k",
+   "modifiers": [
+    "command"
+   ]
+  }
+ },
+ {
+  "wait": 0.4
+ },
+ {
+  "agent_tool": "ui_type",
+  "args": {
+   "text": "ellipse"
+  }
+ },
+ {
+  "wait": 0.5
+ },
+ {
+  "shot": "/Users/bhavinsojitra/nas/code/make-it/target/autotest/proof/shots/palette-ellipse-before.png"
+ },
+ {
+  "agent_tool": "ui_key",
+  "args": {
+   "key": "Enter"
+  }
+ },
+ {
+  "wait": 0.8
+ },
+ {
+  "expect": "plane_pick"
+ },
+ {
+  "shot": "/Users/bhavinsojitra/nas/code/make-it/target/autotest/proof/shots/palette-ellipse-after.png"
+ },
+ {
+  "quit": true
+ }
+]

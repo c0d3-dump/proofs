@@ -1,0 +1,2 @@
+The schematic is open (Schematic toggle on). Pressing S switches back to the 3D bench (3D toggle on)
+and arms the Desoldering wick tool. Both runs the same.

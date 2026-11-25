@@ -1,0 +1,135 @@
+[2m2026-11-25T19:51:37.334886Z[0m [32m INFO[0m [2mbevy_diagnostic::system_information_diagnostics_plugin::internal[0m[2m:[0m SystemInfo { os: "macOS 27.2.1", kernel: "27.2.0", cpu: "Apple M4", core_count: "10", memory: "16.0 GiB" }
+[2m2026-11-25T19:51:37.386708Z[0m [32m INFO[0m [2mbevy_render::renderer[0m[2m:[0m AdapterInfo { name: "Apple M4", vendor: 0, device: 0, device_type: IntegratedGpu, device_pci_bus_id: "", driver: "", driver_info: "", backend: Metal, subgroup_min_size: 4, subgroup_max_size: 64, transient_saves_memory: Some(true), limit_bucket: None }
+[2m2026-11-25T19:51:37.412526Z[0m [32m INFO[0m [2mbevy_pbr::cluster[0m[2m:[0m GPU clustering is supported on this device.
+[2m2026-11-25T19:51:37.412556Z[0m [32m INFO[0m [2mbevy_render::batching::gpu_preprocessing[0m[2m:[0m GPU preprocessing is fully supported on this device.
+[2m2026-11-25T19:51:37.412729Z[0m [33m WARN[0m [2mbevy_egui::render[0m[2m:[0m Bindless textures are not yet supported on metal. Disabling bindless mode. See https://github.com/bevyengine/bevy/issues/18149 for more information
+[2m2026-11-25T19:51:37.433595Z[0m [32m INFO[0m [2mbevy_winit::system[0m[2m:[0m Creating new window Make-It — design, wire, code and assemble (64v0)
+[2m2026-11-25T19:51:37.546938Z[0m [33m WARN[0m [2mbevy_core_pipeline::tonemapping[0m[2m:[0m Camera 333v0 has `Tonemapping::None` with `DebandDither::Enabled`, so dithering has no effect. Use `Tonemapping::Linear` to keep dithering, or set `DebandDither::Disabled`.
+[autotest] agent ui_elements → Screen 800×600 (screen units). 62 elements:
+— the main window
+e1 button "Project: new, open, save, undo" [46, 0, 151, 32]
+e2 text "Untitled project" [50, 16, 80, 13]
+e3 text "Saved" [146, 16, 32, 13]
+e4 toggle "Circuit" (on) [265, 10, 81, 28]
+e5 toggle "Design" [348, 10, 83, 28]
+e6 toggle "Assembly" [433, 10, 100, 28]
+e7 button "Search commands and parts, Command K" [487, 9, 30, 30]
+e8 button "AI agent" [524, 9, 30, 30]
+e9 button "Run" [561, 9, 84, 30]
+e10 button "Serial monitor" [652, 9, 30, 30]
+e11 button "Real hardware" [689, 9, 30, 30]
+e12 button "App settings" [726, 9, 30, 30]
+e13 text "Ready" [763, 12, 24, 24]
+e14 text "Circuit / Bench" [12, 62, 86, 14]
+e15 text "Inspector / Circuit" [501, 62, 103, 14]
+e16 toggle "3D" (on) [246, 65, 29, 24]
+e17 toggle "Schematic" [276, 65, 69, 24]
+e18 button "View orientation" [355, 63, 40, 28]
+e19 button "Fit view (F)" [397, 63, 28, 28]
+e20 button "Display style" [434, 63, 40, 28]
+e21 toggle "Selection" (on) [499, 88, 73, 36]
+e22 toggle "Simulation" [572, 88, 80, 36]
+e23 text field = "" (hint: "Search the parts library") [10, 96, 201, 30]
+e24 button "New component: your own part (package, pins, behaviour)" [217, 100, 22, 22]
+e25 button "Wire" [260, 100, 40, 40]
+e26 text "Circuit" [524, 142, 45, 17]
+e27 text "Bench" [687, 140, 43, 19]
+e28 toggle "Prototyping (5)" (on) [10, 149, 231, 26]
+e29 button "Iron" [260, 142, 40, 40]
+e30 button "Wick" [260, 184, 40, 40]
+e31 button "Prototype board (perfboard)" [10, 181, 112, 104]
+e32 button "Stripboard (Veroboard)" [128, 181, 112, 104]
+e33 button "Cutter" [260, 226, 40, 40]
+e34 text "NEW WIRES" [499, 277, 65, 12]
+e35 toggle "Auto" (on) [499, 294, 144, 28]
+e36 toggle "Jumper" [646, 294, 144, 28]
+e37 clickable [309, 49, 179, 527]
+e38 text "An empty bench" [364, 292, 70, 36]
+e39 panel edge (drag to resize) [249, 49, 6, 551]
+e40 panel edge (drag to resize) [306, 49, 6, 551]
+e41 panel edge (drag to resize) [485, 49, 6, 551]
+e42 button "Screw terminal 2-way" [10, 291, 112, 104]
+e43 button "Screw terminal 3-way" [128, 291, 112, 104]
+e44 toggle "Hook-up" [499, 326, 144, 28]
+e45 toggle "Bare" [646, 326, 144, 28]
+e46 toggle "red" (on) [502, 365, 22, 22]
+e47 toggle "black" [530, 365, 22, 22]
+e48 toggle "orange" [558, 365, 22, 22]
+e49 toggle "yellow" [586, 365, 22, 22]
+e50 toggle "green" [614, 365, 22, 22]
+e51 toggle "blue" [642, 365, 22, 22]
+e52 toggle "purple" [670, 365, 22, 22]
+e53 toggle "white" [698, 365, 22, 22]
+e54 text "Pick a prototype board in Parts and click to place it, then add parts. Or open an example." [346, 336, 105, 90]
+e55 button "Pin header 1×4" [10, 401, 112, 104]
+e56 toggle "Power (18)" (on) [10, 517, 231, 26]
+e57 button "9V battery (PP3)" [10, 549, 112, 43]
+e58 button "2×AA holder 3V" [128, 549, 112, 43]
+e59 text "Shaded with edges" [309, 582, 35, 13]
+e60 text "Nothing selected" [332, 582, 84, 13]
+e61 text "mm · Grid 10" [360, 582, 62, 13]
+e62 text "Stopped" [438, 582, 40, 13]
+[2m2026-11-25T19:51:39.896401Z[0m [31mERROR[0m [2mbevy_render::error_handler[0m[2m:[0m Caught rendering error: Validation Error
+
+Caused by:
+  In a CommandEncoder, label = 'bevy_core_pipeline::core_2d::main_opaque_pass_2d_node::main_opaque_pass_2d'
+    In a pass parameter
+      Attachments have differing sizes: the depth attachment's texture view has extent (800, 600, 1) but is followed by the color attachment at index 0's texture view which has (1440, 900, 1)
+
+[2m2026-11-25T19:51:39.896411Z[0m [31mERROR[0m [2mbevy_render::error_handler[0m[2m:[0m Caught rendering error: Validation Error
+
+Caused by:
+  In a CommandEncoder, label = 'bevy_core_pipeline::core_2d::main_opaque_pass_2d_node::main_opaque_pass_2d'
+    In a pass parameter
+      Attachments have differing sizes: the depth attachment's texture view has extent (800, 600, 1) but is followed by the color attachment at index 0's texture view which has (1440, 900, 1)
+
+[2m2026-11-25T19:51:39.896788Z[0m [31mERROR[0m [2mbevy_render::error_handler[0m[2m:[0m Caught rendering error: Validation Error
+
+Caused by:
+  In Queue::submit
+    In a pass parameter
+      Attachments have differing sizes: the depth attachment's texture view has extent (800, 600, 1) but is followed by the color attachment at index 0's texture view which has (1440, 900, 1)
+
+[2m2026-11-25T19:51:39.896951Z[0m [31mERROR[0m [2mbevy_render::error_handler[0m[2m:[0m Quitting the application due to Validation RenderError
+[2m2026-11-25T19:51:39.902993Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903032Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903039Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903047Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903052Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903056Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903059Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903063Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903067Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903071Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903074Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903078Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903081Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903085Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903087Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903091Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903094Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903097Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903101Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903104Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903108Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903118Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903124Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903127Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903131Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903135Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903141Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903148Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903151Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903156Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903160Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903164Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903168Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903173Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903176Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903179Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903182Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903193Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903198Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903203Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903208Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?
+[2m2026-11-25T19:51:39.903213Z[0m [33m WARN[0m [2mbevy_ecs::world::command_queue[0m[2m:[0m CommandQueue has un-applied commands being dropped. Did you forget to call SystemState::apply?

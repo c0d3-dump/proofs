@@ -1,0 +1,88 @@
+[
+ {
+  "wait": 2.5
+ },
+ {
+  "until": "engine",
+  "timeout": 30
+ },
+ {
+  "ws": "Design"
+ },
+ {
+  "wait": 0.5
+ },
+ {
+  "do": "op",
+  "name": "primitive",
+  "arg": "box",
+  "mode": "solid"
+ },
+ {
+  "wait": 0.4
+ },
+ {
+  "do": "dialog_ok",
+  "title": "New box"
+ },
+ {
+  "until": "idle",
+  "timeout": 20
+ },
+ {
+  "wait": 0.5
+ },
+ {
+  "do": "select",
+  "items": [
+   [
+    "Box"
+   ]
+  ]
+ },
+ {
+  "wait": 0.3
+ },
+ {
+  "do": "op",
+  "name": "to_assembly"
+ },
+ {
+  "wait": 1.0
+ },
+ {
+  "ws": "Assembly"
+ },
+ {
+  "wait": 0.8
+ },
+ {
+  "agent_tool": "ui_click",
+  "args": {
+   "element": "Find a part, joint or coupling"
+  }
+ },
+ {
+  "wait": 0.3
+ },
+ {
+  "agent_tool": "ui_type",
+  "args": {
+   "text": "hinge"
+  }
+ },
+ {
+  "wait": 0.6
+ },
+ {
+  "shot": "/Users/bhavinsojitra/nas/code/make-it/target/autotest/proof/shots/assembly-search-hinge.png"
+ },
+ {
+  "agent_tool": "ui_elements",
+  "args": {},
+  "full": true
+ },
+ {
+  "quit": true
+ }
+]

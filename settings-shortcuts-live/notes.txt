@@ -1,0 +1,5 @@
+circuit before/after Delete while Settings is open (run 1):
+[autotest]   circuit: ["ex0 perfboard (1, -1)", "ex1 battery-9v (-16, 4)", "ex2 resistor (5, 6)", "ex3 led (9, 8)"], 2 wires
+[autotest]   circuit: ["ex0 perfboard (1, -1)", "ex1 battery-9v (-16, 4)", "ex2 resistor (5, 6)"], 2 wires
+
+The same 4 -> 3 items happened in run 2.

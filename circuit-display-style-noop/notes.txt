@@ -1,0 +1,3 @@
+The menu shows "Shaded with edges" checked; clicking "Wireframe" leaves the view and its check unchanged.
+AUTOTEST FAIL step 13: look: display is edges, wanted wireframe
+Both runs the same.

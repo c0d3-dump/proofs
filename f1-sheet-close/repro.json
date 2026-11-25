@@ -1,0 +1,93 @@
+[
+ {
+  "wait": 2.5
+ },
+ {
+  "until": "engine",
+  "timeout": 30
+ },
+ {
+  "ws": "Design"
+ },
+ {
+  "wait": 0.5
+ },
+ {
+  "do": "op",
+  "name": "primitive",
+  "arg": "box",
+  "mode": "solid"
+ },
+ {
+  "wait": 0.4
+ },
+ {
+  "do": "dialog_ok",
+  "title": "New box"
+ },
+ {
+  "until": "idle",
+  "timeout": 20
+ },
+ {
+  "wait": 0.5
+ },
+ {
+  "do": "select",
+  "items": [
+   [
+    "Box"
+   ]
+  ]
+ },
+ {
+  "wait": 0.3
+ },
+ {
+  "shot": "/Users/bhavinsojitra/nas/code/make-it/target/autotest/proof/shots/f1-before.png"
+ },
+ {
+  "agent_tool": "ui_key",
+  "args": {
+   "key": "F1"
+  }
+ },
+ {
+  "wait": 0.6
+ },
+ {
+  "shot": "/Users/bhavinsojitra/nas/code/make-it/target/autotest/proof/shots/f1-open.png"
+ },
+ {
+  "agent_tool": "ui_key",
+  "args": {
+   "key": "F1"
+  }
+ },
+ {
+  "wait": 0.6
+ },
+ {
+  "shot": "/Users/bhavinsojitra/nas/code/make-it/target/autotest/proof/shots/f1-second-press.png"
+ },
+ {
+  "agent_tool": "ui_elements",
+  "args": {},
+  "full": true
+ },
+ {
+  "agent_tool": "ui_key",
+  "args": {
+   "key": "Escape"
+  }
+ },
+ {
+  "wait": 0.6
+ },
+ {
+  "shot": "/Users/bhavinsojitra/nas/code/make-it/target/autotest/proof/shots/f1-escape-after.png"
+ },
+ {
+  "quit": true
+ }
+]

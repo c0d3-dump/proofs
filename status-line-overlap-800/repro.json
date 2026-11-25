@@ -1,0 +1,71 @@
+[
+ {
+  "wait": 2.5
+ },
+ {
+  "until": "engine",
+  "timeout": 30
+ },
+ {
+  "ws": "Circuit"
+ },
+ {
+  "wait": 0.6
+ },
+ {
+  "shot": "/Users/bhavinsojitra/nas/code/make-it/target/autotest/proof/shots/topbar-status-circuit-800.png"
+ },
+ {
+  "expect": "top_bar_fits"
+ },
+ {
+  "ws": "Design"
+ },
+ {
+  "wait": 0.6
+ },
+ {
+  "shot": "/Users/bhavinsojitra/nas/code/make-it/target/autotest/proof/shots/topbar-status-design-800.png"
+ },
+ {
+  "ws": "Assembly"
+ },
+ {
+  "wait": 0.6
+ },
+ {
+  "shot": "/Users/bhavinsojitra/nas/code/make-it/target/autotest/proof/shots/topbar-status-assembly-800.png"
+ },
+ {
+  "agent_tool": "ui_elements",
+  "args": {},
+  "full": true
+ },
+ {
+  "window": "1440x900"
+ },
+ {
+  "wait": 0.8
+ },
+ {
+  "ws": "Circuit"
+ },
+ {
+  "wait": 0.4
+ },
+ {
+  "shot": "/Users/bhavinsojitra/nas/code/make-it/target/autotest/proof/shots/topbar-status-circuit-1440.png"
+ },
+ {
+  "window": "1024x640"
+ },
+ {
+  "wait": 0.8
+ },
+ {
+  "shot": "/Users/bhavinsojitra/nas/code/make-it/target/autotest/proof/shots/topbar-status-circuit-1024.png"
+ },
+ {
+  "quit": true
+ }
+]

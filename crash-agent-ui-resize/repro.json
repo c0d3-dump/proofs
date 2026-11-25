@@ -1,0 +1,3 @@
+[{"wait":2.5},{"until":"engine","timeout":30},
+ {"agent_tool":"ui_elements","args":{},"full":true},
+ {"window":"1440x900"},{"wait":1.2},{"quit":true}]

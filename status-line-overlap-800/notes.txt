@@ -1,0 +1,3 @@
+At 800x600 the status line texts share the same y=582 and overlap: "Shaded with edges" [309,582,35,13],
+"Nothing selected" [332,582,84,13], "mm · Grid 10" [360,582,62,13], "Stopped" [438,582,40,13].
+The crop is from the Circuit screenshot. Same in Design and Assembly.
